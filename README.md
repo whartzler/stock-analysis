@@ -1,10 +1,10 @@
-#VBA_Challenge Optimization
-##Overview of Project 
+# VBA_Challenge Optimization
+## Overview of Project 
 Our goal was to analyze 2017 & 2018 stock ticker data and compile the stock data using VBA Scripting..  
-###Purpose
+### Purpose
 The purpose of this task was to optimize a previously created VBA Script AllStocksAnalysis and compare the run time to a newly created VBA script AllStocksAnalysisRefactored with a goal to reduce the amount of time it took for the script to run. 
-##Analysis and Challenges
-###Analysis
+## Analysis and Challenges
+### Analysis
 The AllStocksAnalysis VBA script calculated the tickers information utilizing a more basic structure looping through each ticker individually and calculating its data.  
  
 
@@ -26,7 +26,7 @@ AllStocksAnalysis				   AllStocksAnalysisRefactored
    
 
 
-###Challenges
+### Challenges
 The main challenge in this project was learning about how to imbed the array for the 3 objects in the correct spot.  It took me a while to understand that in our arrays we needed to initialize the array after the object.
  
 Then initializing the tickers(tickerIndex) to keep track of the current ticker.
