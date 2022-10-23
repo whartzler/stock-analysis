@@ -1,4 +1,4 @@
-# VBA_Challenge Optimization
+#VBA_Challenge Optimization
 ##Overview of Project 
 Our goal was to analyze 2017 & 2018 stock ticker data and compile the stock data using VBA Scripting..  
 ###Purpose
