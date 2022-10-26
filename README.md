@@ -8,32 +8,44 @@ The purpose of this task was to optimize a previously created VBA Script AllStoc
 The AllStocksAnalysis VBA script calculated the tickers information utilizing a more basic structure looping through each ticker individually and calculating its data.  
  
 The AllStocksAnalysisRefactored VBA script initiated 3 arrays with each set to 0.  Then it looped over each ticker calculating its information.  This process condensed the number of lines in the script and allowed it to run more quickly. 
+
+
 ![image](https://user-images.githubusercontent.com/109490755/197906206-1c8412a3-5bd2-4a27-9e80-53bdb095eb62.png)
 
  
 
 We confirmed the AllStocksAnalysisRefactored VBA script ran quicker based on the below screenshots.
 Below are screenshots of the Original VBA Scripts
+
 2017						
+
 ![1  2017 Run 3](https://user-images.githubusercontent.com/109490755/197905986-d5bd3efa-3237-4848-9002-f161cd50f753.png)
+
 
 2018
 ![1  2018 Run 3](https://user-images.githubusercontent.com/109490755/197906000-39ff5d00-49ca-4254-9ae5-c8a84a34a3cb.png)
 
 
+
 Screenshots of the New VBA Script utilizing arrays & indexes.
+
 2017						
+
 ![VBA_Challenge_2017 png](https://user-images.githubusercontent.com/109490755/197905948-b5fffc4c-56f7-4bd7-b219-a3e4b6084f1d.png)
 
 2018
+
 ![VBA_Challenge_2018 png](https://user-images.githubusercontent.com/109490755/197905960-35f4582e-a795-473d-adbc-d19eeb26de98.png)
 
 
 We validated the end results were the same but the run time was not.
 AllStocksAnalysis				   
+
 ![image](https://user-images.githubusercontent.com/109490755/197906078-67084065-29a8-47a5-b5b1-9e6f58044474.png)
 
+
 AllStocksAnalysisRefactored
+
 ![image](https://user-images.githubusercontent.com/109490755/197906081-dc4f8cf0-32ba-4442-a40a-cf25f968ec83.png)
 
 
@@ -42,6 +54,9 @@ AllStocksAnalysisRefactored
 The main challenge in this project was learning about how to imbed the array for the 3 objects in the correct spot.  It took me a while to understand that in our arrays we needed to initialize the array after the object.
  
 Then initializing the tickers(tickerIndex) to keep track of the current ticker.
+
+
+
 ![image](https://user-images.githubusercontent.com/109490755/197906158-878c39e0-5f30-4e95-bf2f-582225202016.png)
  
 
